@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 // Configura la URL de tu backend aquí
-const API_URL = 'http://localhost:8080/api/productos'
+const API_URL = 'https://examu3-be.onrender.com/api/productos'
 
 const api = axios.create({
   baseURL: API_URL,
